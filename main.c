@@ -19,16 +19,29 @@ int main()
     }
     if(coude==1){
         char x;
-     
+        char i;
          printf("tianjia\n");
          scanf("%c",&x);
          scanf("%c",&x);
          arr[index]=x;
          index++;
-              char i;
           printf("jixu\n");
           scanf("%c",&i);
           scanf("%c",&i);
+    }
+    if(coude==2){
+        char x;
+        printf("shanchu\n");
+        if(index>0){
+            index--;
+            printf("chengongjixu\n");
+        scanf("%c",&x);
+        scanf("%c",&x);
+        }else{
+            printf("shibaijixu\n");
+            scanf("%c",&x);
+            scanf("%c",&x);
+        }
     }
     return 0;
 }
